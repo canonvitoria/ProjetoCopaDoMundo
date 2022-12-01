@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #400215;
+}
+
+nav {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+#logo-copa {
+    width: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    width: 1400px;
+    margin: auto;
+    border-radius: 9px;
+    text-align: justify;
+}
+
+h1 {
+    color: #796339;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    margin: auto;
+    width: 1000px;
+    padding-bottom: 5px;
+}
+
+img.imagens {
+    padding-left: 500px;
+}
+
+img.imagem {
+    padding-left: 200px;
+}
+
+#referencia {
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+}
+
+#referencia > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+}
